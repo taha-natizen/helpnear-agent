@@ -19,11 +19,11 @@ This saves time, reduces stress, and ensures quick access to real help.
 ---
 
 ## ✨ Key Features
-- 🔎 Smart nearby search with trust-stamp verification  
-- 🗣️ Multilingual support (language filters)  
-- 💰 Budget filter (affordable / premium)  
-- 📜 Request history & user submissions  
-- ⚡ One-click navigation or call  
+🔎 Smart nearby search with trust-stamp verification  
+🗣️ Multilingual support (language filters)  
+💰 Budget filter (affordable / premium)  
+📜 Request history & user submissions  
+⚡ One-click navigation or call  
 
 ---
 

@@ -37,4 +37,5 @@ With filters (open now / language / budget), users save time, reduce stress, and
 
 ---
 
-## Project Structure
+## License
+MIT — see [LICENSE](./LICENSE).

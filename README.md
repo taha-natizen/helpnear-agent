@@ -1,34 +1,40 @@
 # HelpNear Agent
 
-**One-line:** AI-powered web app that finds trusted local help nearby (pharmacies, doctors, translators, crypto-payments) with filters like *open now / language / budget*.
+One-line: AI-powered web app that helps people quickly find trusted local help nearby (pharmacies, doctors, translators, crypto-payments) with filters like open now / language / budget.
 
-**Live Demo:** https://<deploy-url>  
-**Devpost:** [https://devpost.com/software/](https://the-syrotech-hackathon.devpost.com/](https://the-syrotech-hackathon.devpost.com/)<slug>
-
----
-
-## 🚩 Problem
-People in a new place often struggle to find trusted local help. Existing platforms are overloaded, full of irrelevant info, language barriers, and fake listings.
+Live Demo: https://app--help-near-agent-d369e7ce.base44.app/  
+Devpost: https://the-syrotech-hackathon.devpost.com/
 
 ---
 
-## 💡 Solution
-HelpNear Agent aggregates trusted providers, applies verification, and shows only relevant results with filters (*open now / language / budget*).  
-This saves time, reduces stress, and ensures quick access to real help.
+## Problem
+When arriving in a new place, people often struggle to find reliable help.  
+Existing platforms are overloaded with irrelevant info, language barriers, and fake or unverified listings.
 
 ---
 
-## ✨ Key Features
-🔎 Smart nearby search with trust-stamp verification  
-🗣️ Multilingual support (language filters)  
-💰 Budget filter (affordable / premium)  
-📜 Request history & user submissions  
-⚡ One-click navigation or call  
+## Solution
+HelpNear Agent shows only relevant and verified providers.  
+With filters (open now / language / budget), users save time, reduce stress, and access real help faster.
 
 ---
 
-## 👥 Who is it for?
-- Tourists & expats  
-- Migrants & students  
+## Key Features
+- Nearby search with verification ("trust-stamp")  
+- Multilingual support (EN, CZ, RU)  
+- Budget filter (affordable / premium)  
+- History of requests  
+- User submissions (add new providers)  
+- One-click navigation or call  
+
+---
+
+## Who is it for
+- Tourists and expats  
+- Migrants and students  
 - Elderly people  
-- Volunteers & NGOs  
+- Volunteers and NGOs  
+
+---
+
+## Project Structure

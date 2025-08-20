@@ -1,0 +1,128 @@
+{
+  "name": "Provider",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the service provider"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "medical",
+        "social_support",
+        "repair",
+        "volunteers"
+      ],
+      "description": "Main category of service"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the provider is verified"
+    },
+    "trust_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "default": 5,
+      "description": "Trust score from 0-10"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "EN",
+          "CZ",
+          "RU",
+          "DE",
+          "SK"
+        ]
+      },
+      "description": "Languages supported"
+    },
+    "budget": {
+      "type": "string",
+      "enum": [
+        "€",
+        "€€",
+        "€€€"
+      ],
+      "default": "€€",
+      "description": "Price range indicator"
+    },
+    "open_hours": {
+      "type": "object",
+      "properties": {
+        "monday": {
+          "type": "string"
+        },
+        "tuesday": {
+          "type": "string"
+        },
+        "wednesday": {
+          "type": "string"
+        },
+        "thursday": {
+          "type": "string"
+        },
+        "friday": {
+          "type": "string"
+        },
+        "saturday": {
+          "type": "string"
+        },
+        "sunday": {
+          "type": "string"
+        }
+      },
+      "description": "Opening hours for each day"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "email": {
+      "type": "string",
+      "description": "Contact email address"
+    },
+    "website": {
+      "type": "string",
+      "description": "Website URL"
+    },
+    "accepts_walkins": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether walk-ins are accepted"
+    },
+    "address": {
+      "type": "string",
+      "description": "Full address"
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Latitude coordinate"
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude coordinate"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Additional tags/keywords"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of services"
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "address"
+  ]
+}

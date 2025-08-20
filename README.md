@@ -3,7 +3,7 @@
 **One-line:** AI-powered web app that finds trusted local help nearby (pharmacies, doctors, translators, crypto-payments) with filters like *open now / language / budget*.
 
 **Live Demo:** https://<deploy-url>  
-**Devpost:** https://devpost.com/software/](https://the-syrotech-hackathon.devpost.com/<slug>
+**Devpost:** [https://devpost.com/software/](https://the-syrotech-hackathon.devpost.com/](https://the-syrotech-hackathon.devpost.com/)<slug>
 
 ---
 

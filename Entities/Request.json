@@ -1,0 +1,54 @@
+{
+  "name": "Request",
+  "type": "object",
+  "properties": {
+    "query_text": {
+      "type": "string",
+      "description": "User's search query or situation description"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "medical",
+        "social_support",
+        "repair",
+        "volunteers",
+        "general"
+      ],
+      "description": "Category of the request"
+    },
+    "filters": {
+      "type": "object",
+      "description": "Applied filters during search"
+    },
+    "chosen_provider_id": {
+      "type": "string",
+      "description": "ID of the selected provider"
+    },
+    "agent_script": {
+      "type": "string",
+      "description": "AI-generated call script"
+    },
+    "message_template": {
+      "type": "string",
+      "description": "AI-generated message template"
+    },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "AI-generated checklist items"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "AI-generated clarification questions"
+    }
+  },
+  "required": [
+    "query_text"
+  ]
+}

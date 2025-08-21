@@ -1,6 +1,6 @@
 # HelpNear Agent
 
-One-line: AI-powered web app that helps people quickly find trusted local help nearby (pharmacies, doctors, translators, crypto-payments) with filters like open now / language / budget.
+One-line: AI-powered web app that helps people quickly find trusted local help nearby (pharmacies, doctors, repair) with filters like open now / language / budget.
 
 Live Demo: https://app--help-near-agent-d369e7ce.base44.app/  
 Devpost: https://the-syrotech-hackathon.devpost.com/
@@ -21,7 +21,7 @@ With filters (open now / language / budget), users save time, reduce stress, and
 
 ## Key Features
 - Nearby search with verification ("trust-stamp")  
-- Multilingual support (EN, CZ, RU)  
+- Multilingual support
 - Budget filter (affordable / premium)  
 - History of requests  
 - User submissions (add new providers)  

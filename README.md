@@ -21,11 +21,12 @@ With filters (open now / language / budget), users save time, reduce stress, and
 
 ## Key Features
 - Nearby search with verification ("trust-stamp")  
-- Multilingual support
+- Multilingual support  
 - Budget filter (affordable / premium)  
 - History of requests  
 - User submissions (add new providers)  
 - One-click navigation or call  
+- **Language Bridge** — interface adapts to the user’s language, while communication with providers is automatically translated into the local language. Messages can be sent in both versions, and templates cover common situations (e.g., asking if someone at a clinic speaks English).
 
 ---
 
